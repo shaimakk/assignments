@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: blue;
+      color: white;
+
+    }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.box {
+  flex: 1 1 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+  
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .box {
+    flex: 1 1 100%;
+    width: 100%; /* Add this line */
+  }
+}
+
+
+
+  </style>
+</head>
+<body>
+  
+
+
+  <div class="container">
+    <div class="box">
+      <img src="./images/spiderman in tokyo.jpeg" alt="image 1">
+      <img src="./images/Motivational Desktop wallpaper.jpeg" alt="image 2">
+      <img src="./images/spiderman in tokyo.jpeg" alt="image3">
+      <img src="./images/Motivational Desktop wallpaper.jpeg" alt="image4">
+    </div>
+
+    
+
+    <div class="box">     
+     <img src="./images/spiderman in tokyo.jpeg" alt="image 5">
+      <img src="./images/Motivational Desktop wallpaper.jpeg" alt="image 6">
+      <img src="./images/spiderman in tokyo.jpeg" alt="image7">
+      <img src="./images/Motivational Desktop wallpaper.jpeg" alt="image8">
+    
+    </div>
+
+    <div class="box">     
+     <img src="./images/spiderman in tokyo.jpeg" alt="image 9">
+      <img src="./images/Motivational Desktop wallpaper.jpeg" alt="image 10">
+      <img src="./images/spiderman in tokyo.jpeg" alt="image11">
+      <img src="./images/Motivational Desktop wallpaper.jpeg" alt="image12">
+    
+    </div>
+  </div>
+
+</body>
+</html>

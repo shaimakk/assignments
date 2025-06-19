@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>document</title>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.card-content p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 10px 0;
+}
+
+.card-content button {
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-content button:hover {
+  background-color: #555;
+}
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <img src="./images/download (2).jpeg" alt="Card 1">
+      <div class="card-content">
+        <h3>Card 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <button>Read More</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./images/Le mont Everest.jpeg" alt="Card 2">
+      <div class="card-content">
+        <h3>Card 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <button>Read More</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./images/Randonnées dans les Alpes en été (France) _ Mes incontournables de Chamonix Mont-Blanc à proximité du centre.jpeg" alt="Card 3">
+      <div class="card-content">
+        <h3>Card 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <button>Read More</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
