@@ -1,11 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 40px auto;
+      max-width: 800px;
+    }
+
+    .page {
+      page-break-after: always;
+      width: 210mm;
+      height: 297mm;
+      padding: 30mm;
+      margin: 10px auto;
+      border: 1px solid white;
+      border-radius: 8px;
+      background-color: white;
+    }
+
+    h2 {
+      color: black;
+      font-size: 26px;
+      margin-bottom: 10px;
+      font-weight: normal;
+    }
+
+    p, li {
+      color: black;
+      font-size: 16px;
+      text-align: justify;
+      line-height: 1.4;
+    }
+
+    .sub-heading {
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .sub-heading2{
+      font-weight: normal;
+    font-size: 25px;
+      margin-top: 10px;
+      margin-bottom: 50px
+    }
+
+    table {
+     padding: 40px;
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+    }
+
+    th, td {
+      
+      border: 2px solid black;
+      padding: 4px 8px;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    ol.spaced-list li {
+      padding-left: 10px;
+      margin-bottom: 4px;
+    }
+
+    img {
+      border: 5px solid rgb(118, 13, 167);
+      width: 100%;
+    }
+
+  </style>
 </head>
 <body>
-    
+
+
+  <div class="page">
+    <img src="./images/India Map _ Free Map of India With States, UTs and Capital Cities to Download - MapsofIndia_Com.jpg" alt="India Map">
+
+    <h2>My India</h2>
+    <p>
+      India, officially the <em><strong><span style="font-size: 18px;">Republic of India</span></strong></em>, is a country in South Asia. It is the seventh-largest country
+      by area and the most populous country in the world. Bounded by the Indian Ocean on the south,
+      the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land
+      borders with Pakistan to the west, China, Nepal, and Bhutan to the north; and Bangladesh and
+      Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives;
+      its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar, and
+      Indonesia.
+    </p>
+    <p>
+      India is very unique. India is a diverse country with all the major religions of the world. There are:
+    </p>
+    <ul>
+      <li>Close to 1600 languages spoken in India.</li>
+      <li>India has geographical diversity in the form of mountains, plains, plateaus, deserts, and islands.</li>
+      <li>India has different ethnic groups due to migration from around the world.</li>
+    </ul>
+  </div>
+
+  <!-- Page 2 -->
+  <div class="page">
+    <p>
+      Refer to the 
+      <a href="https://en.wikipedia.org/wiki/India" target="_blank" style="color: blue; text-decoration: underline;">Wiki</a> 
+      page for more details.
+    </p>
+
+    <p class="sub-heading">States in India</p>
+    <ol class="spaced-list">
+      <li>Kerala</li>
+      <li>Tamil Nadu</li>
+      <li>Karnataka</li>
+      <li>....</li>
+    </ol>
+
+    <p class="sub-heading2">Major Languages</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Language</th>
+          <th>Speakers (in million)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hindi</td>
+          <td>551</td>
+        </tr>
+        <tr>
+          <td>English</td>
+          <td>125</td>
+        </tr>
+        <tr>
+          <td>Bengali</td>
+          <td>91</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
 </body>
 </html>
